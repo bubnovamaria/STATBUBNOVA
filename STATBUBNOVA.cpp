@@ -7,9 +7,9 @@ using namespace std;
 
 int main()
 {
-    int ggg = 666;
+    int ggg = 666; 
     cout << "Group is " << Group(ggg) << "\n";
-    char* imya = (char*)malloc(20);
+    char* imya = (char*)malloc(20);  //выделение памяти 
     Name(imya);
     cout << "Name is " << imya << "\n";
      
