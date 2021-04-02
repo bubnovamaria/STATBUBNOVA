@@ -12,6 +12,7 @@ int main()
     char* imya = (char*)malloc(20);  //выделение памяти 
     Name(imya);
     cout << "Name is " << imya << "\n";
+    system("pause");
      
 }
 
